@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Tab-wrapper {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tab-wrapper button {
+  border: none;
+  cursor: pointer;
+  padding: 20px 25px;
+}
+
+.Tab-wrapper button:hover {
+  background-color: #cccccc;
+}
+
+.desc {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
+
+.tokyo-show {
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+.london-show {
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paris-show {
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+.active {
+  background-color: #cccccc;
+  border: none;
+  cursor: pointer;
+  padding: 20px 25px;
+}
